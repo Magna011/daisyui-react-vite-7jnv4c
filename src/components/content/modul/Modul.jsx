@@ -32,7 +32,7 @@ const Modul = () => {
             a id nisi.
           </p>
         </div>
-        <div className="card flex-shrink-0 w-[350px] h-[905px] shadow-2xl bg-base-100  border border-black border-t-2 ">
+        <div className="card flex-shrink-0 w-[400px] h-[905px] shadow-2xl bg-base-100  border border-black border-t-2 ">
           <div className="card-body">
             <div className="card border border-black border-t-2 w-[full] h-[150px] p-0 m-0 shadow-2xl bg-base-100">
               <div className="text-left font-bold p-2 m-3">Progress</div>
@@ -41,7 +41,7 @@ const Modul = () => {
               </a>
               <div className="flex justify-center items-center ">
                 <progress
-                  className="progress w-[250px] border border-black border-t-2 "
+                  className="progress w-[300px] border border-black border-t-2 "
                   value="33"
                   max="100"
                 ></progress>
@@ -51,7 +51,7 @@ const Modul = () => {
               <div className=" flex justify-left items-left ">
                 <ul className="p-0  menu  z-[1] bg-base-100 rounded-box w-56">
                   <li>
-                    <a href="#"  className="btn btn-neutral border rounded-md w-[282px] text-white bg-neutral"> Modul 1</a>
+                    <a href="#"  className="btn btn-neutral border rounded-md w-[340px] text-white bg-neutral"> Modul 1</a>
                   </li>
                   <ul className="p-1 m-1">
                   <li>
@@ -72,9 +72,10 @@ const Modul = () => {
               <div className=" flex justify-left items-left ">
                 <ul className="p-0  menu  z-[1] bg-base-100 rounded-box w-56">
                   <li>
-                    <a href="#"  className="btn btn-neutral border rounded-md w-[282px] text-white bg-neutral"> Modul 2</a>
+                    <a href="#"  className="btn btn-neutral border rounded-md w-[340px] text-white bg-neutral"> Modul 2</a>
                   </li>
-                  <ul className="p-1 m-1">
+                  <div className="m-1 p-1 grid justify-items-center">
+                    <ul className="p-0 m-0">
                   <li>
                     <a href="#"  className="border rounded-md w-[270px] p-4 ">Sub Modul 1</a>
                   </li>
@@ -88,11 +89,12 @@ const Modul = () => {
                     <a href="#"  className="border rounded-md w-[270px] p-4 ">Sub Modul 4</a>
                   </li>
                   </ul>
+                  </div>
                 </ul>
               </div>
                 <br/>
               <details className="flex justify-center items-center ">
-                <summary  className="btn p-0 m-0 border rounded-md w-[282px]">
+                <summary  className="btn p-0 m-0 border rounded-md w-[340px]">
                   Final Quis
                 </summary>
               </details>
