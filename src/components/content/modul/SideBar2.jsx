@@ -1,17 +1,21 @@
 import React from 'react';
 
-const Sidebar = () => {
+const SideBar2 = () => {
   return (
     <div className="sidebar h-screen bg-#ef4444 px-0 py-">
       <div className="sidebar-content p-0 m-0">
-        <div className="box-border p-4 border-none w-[300px] h-[600px] rounded-box bg-rose-600">
+        <div className="box-border p-4 border-none w-[300px] h-[650px] rounded-box bg-rose-600">
           <div className=" md:box-content">
-            <div className="font-bold font-[60px] text-white">
+            <div className="collapse-title font-bold font-[120px] text-white">
               <p>FILTER</p>
             </div>
-            <details className="dropdown hover:btn-bg-error mb-32 p-0">
-              <summary className="m-1 btn hover:btn-bg-error bg-rose-600 text-white font-bold border-none text-left font-[50px] w-[240px] h-[50px]">Kategori</summary>
-              <ul className="p-0  menu dropdown-content z-[1] bg-rose-600 rounded-box w-[270px] text-white">
+            <div className="collapse bg-rose-600 p-2 m-0 ">
+              <input type="checkbox" />
+              <div className="collapse-title text-m text-white font-medium">
+                Kategori
+              </div>
+              <div className="collapse-content text-white">
+                <ul className="p-0 menu z-[1] bg-rose-600 rounded-box w-[270px]">
                 <li>
                   <a>
                     <input type="radio" name="kategori" value="kategori1" />
@@ -72,8 +76,9 @@ const Sidebar = () => {
                     Kategori 10
                   </a>
                 </li>
-              </ul>
-            </details>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -81,4 +86,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default SideBar2;
